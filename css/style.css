@@ -1,14 +1,9 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	font-family: PT Sans;
 }
 
 .page-header {
-	padding: 20px 0 25px;
+	padding: 10px 0;
 	position: relative;
 }
 
@@ -36,6 +31,7 @@ header {
 header a {
 	text-decoration: none;
 	color: black;
+	padding-top: 10px;
 }
 
 .logo img,
@@ -65,21 +61,6 @@ header li {
 	background-color: #ffe184;
 }
 
-.promo .container {
-	background-image: url(img/bgpromo.jpg);
-}
-
-
-
-
-
-
-.promo-slogan {
-	font-size: 44px;
-	text-align: center;
-}
-
-.promo-title {
-	font-size: 20px;
-	text-align: center;
+.btn-consult {
+	background-color: #ffe184
 }
