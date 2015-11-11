@@ -9,7 +9,6 @@ header {
 .container {
     width: 960px;
     margin: 0 auto;
-    padding: 0 10px;
     overflow: hidden;
 }
 
@@ -95,7 +94,7 @@ header li {
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
-    padding: 137px 0 100px;
+    padding: 137px 0 117px;
 }
 
 .promo-slogan{
@@ -112,6 +111,7 @@ header li {
     font-weight: normal;
     margin: 0;
     margin-top: 36px;
+    margin-bottom: 32px;
 }
 
 .btn-promo {
@@ -123,5 +123,13 @@ header li {
     background-image: url(../img/arrow_right_icon.png);
     background-repeat: no-repeat;
     background-position: 90% 50%;
-    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.btn-promo:hover {
+    border: 2px solid #ffd966;
+}
+
+.btn-promo:active {
+	border: 2px solid #ffe390;
 }
