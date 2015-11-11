@@ -131,35 +131,35 @@ header li {
 }
 
 .btn-promo:active {
-	border: 3px solid #ffe390;
+    border: 3px solid #ffe390;
 }
 
 .consult {
-	padding: 27px 0 40px;
-	background-color: #202e3b;
+    padding: 27px 0 40px;
+    background-color: #202e3b;
 }
 
 .consult-title {
-	margin: 0;
-	font-weight: normal;
-	color: #ffcd34;
-	margin-bottom: 30px;
+    margin: 0;
+    font-weight: normal;
+    color: #ffcd34;
+    margin-bottom: 30px;
 }
 
 .consult input {
-	width: 198px;
-	height: 42px;
-	color: white;
-	background-color: #202e3b;
-	border: 2px solid #ffcd34;
-	padding-left: 20px;
-	margin-right: 20px
+    width: 198px;
+    height: 42px;
+    color: white;
+    background-color: #202e3b;
+    border: 2px solid #ffcd34;
+    padding-left: 20px;
+    margin-right: 20px
 }
 
 .btn-consult {
-	padding: 13px 18px;
-	background-color: #ffcd34;
-	color: black;
+    padding: 13px 18px;
+    background-color: #ffcd34;
+    color: black;
 }
 
 .btn-consult:hover {
@@ -168,4 +168,47 @@ header li {
 
 .btn-consult:active {
     background-color: #f6bf16;
+}
+
+.features {
+    padding: 32px 0;
+}
+
+.features-item {
+    width: 23.2%;
+    margin-right: 20px;
+    float: left;
+    padding-left: 60px;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.features-item-tool {
+    background-image: url(../img/feat1.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-work {
+    background-image: url(../img/feat2.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-fencing {
+    background-image: url(../img/feat3.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-workman {
+    background-image: url(../img/feat4.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
 }
