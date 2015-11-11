@@ -1,9 +1,9 @@
 body {
-	font-family: PT Sans;
+    font-family: PT Sans;
 }
 
 header {
-	background-color: #ffcd34;
+    background-color: #ffcd34;
 }
 
 .container {
@@ -14,76 +14,76 @@ header {
 }
 
 .logo {
-	float: left;
-	font-size: 24px;
+    float: left;
+    font-size: 24px;
     color: black;
 	
 }
 
 header a {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .logo img,
 .logo span {
-	display: inline-block;
-	vertical-align: middle;	
-	line-height: 75px;
+    display: inline-block;
+    vertical-align: middle;	
+    line-height: 75px;
 }
 
 .main-nav ul {
-	margin: 0;
+    margin: 0;
 }
 
 .logo-img {
-	margin-right: 3px;
+    margin-right: 3px;
 }
 
 .main-nav {
-	float: right;
+    float: right;
 }
 
 header li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .main-nav li a {
-	padding: 15px 19px;
-	border: 2px solid transparent;
-	line-height: 75px;
-	color: #866c1b;
+    padding: 15px 19px;
+    border: 2px solid transparent;
+    line-height: 75px;
+    color: #866c1b;
 }
 
 .main-nav li a:hover {
-	border: 2px solid #bc9d36;
-	color: black;
+    border: 2px solid #bc9d36;
+    color: black;
 }
 
 .main-nav li a:active {
-	border: 2px solid #796e38;
-	color: black;
+    border: 2px solid #796e38;
+    color: black;
 }
 
 .main-nav li .link-active {
-	color: black;
+    color: black;
 }
 
 .btn {
-	padding: 18px 27px;
+    padding: 18px 27px;
 
 }
 
 .btn-consult {
-	background-color: #ffe184;
-	color: black !important;
+    background-color: #ffe184;
+    color: black !important;
 }
 
 .btn-consult:hover {
-	border: 2px solid transparent !important; 
-	background-color: #ffecb2;	
+    border: 2px solid transparent !important; 
+    background-color: #ffecb2;	
 }
 
 .btn-consult:active {
-	background-color: #f6bf16;
+    background-color: #f6bf16;
 }
