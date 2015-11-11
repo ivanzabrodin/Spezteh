@@ -2,11 +2,6 @@ body {
 	font-family: PT Sans;
 }
 
-.page-header {
-	padding: 10px 0;
-	position: relative;
-}
-
 header {
 	background-color: #ffcd34;
 }
@@ -25,19 +20,26 @@ header {
 	float: left;
 	font-size: 24px;
     color: black;
-
+	
 }
 
 header a {
 	text-decoration: none;
 	color: black;
-	padding-top: 10px;
+	line-height: 75px;
 }
 
 .logo img,
 .logo span {
 	display: inline-block;
-    vertical-align: middle;
+	vertical-align: middle;	
+}
+
+.main-nav ul {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .logo-img {
@@ -53,14 +55,16 @@ header li {
 }
 
 .main-nav li a {
-	padding: 10px 20px;
-    display: inline-block;
+	padding: 18px 27px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .main-nav li a:hover {
-	background-color: #ffe184;
+	border: 2px solid #bc9d36;
 }
 
-.btn-consult {
+.btn .btn-consult {
 	background-color: #ffe184
 }
