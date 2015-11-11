@@ -72,17 +72,17 @@ header li {
 
 }
 
-.btn-consult {
+.btn-catalog {
     background-color: #ffe184;
     color: black !important;
 }
 
-.btn-consult:hover {
+.btn-catalog:hover {
     border: 2px solid transparent !important; 
     background-color: #ffecb2;	
 }
 
-.btn-consult:active {
+.btn-catalog:active {
     background-color: #f6bf16;
 }
 
@@ -110,7 +110,7 @@ header li {
     color: #cfcecc;
     font-weight: normal;
     margin: 0;
-    margin-top: 36px;
+    margin-top: 20px;
     margin-bottom: 32px;
 }
 
@@ -119,7 +119,7 @@ header li {
     text-decoration: none;
     font-weight: bold;
     padding: 12px 75px 12px 13px;
-    border: 2px solid #ffcd34;
+    border: 3px solid #ffcd34;
     background-image: url(../img/arrow_right_icon.png);
     background-repeat: no-repeat;
     background-position: 90% 50%;
@@ -127,9 +127,45 @@ header li {
 }
 
 .btn-promo:hover {
-    border: 2px solid #ffd966;
+    border: 3px solid #ffd966;
 }
 
 .btn-promo:active {
-	border: 2px solid #ffe390;
+	border: 3px solid #ffe390;
+}
+
+.consult {
+	padding: 27px 0 40px;
+	background-color: #202e3b;
+}
+
+.consult-title {
+	margin: 0;
+	font-weight: normal;
+	color: #ffcd34;
+	margin-bottom: 30px;
+}
+
+.consult input {
+	width: 198px;
+	height: 42px;
+	color: white;
+	background-color: #202e3b;
+	border: 2px solid #ffcd34;
+	padding-left: 20px;
+	margin-right: 20px
+}
+
+.btn-consult {
+	padding: 13px 18px;
+	background-color: #ffcd34;
+	color: black;
+}
+
+.btn-consult:hover {
+    background-color: #ffd966;
+}
+
+.btn-consult:active {
+    background-color: #f6bf16;
 }
