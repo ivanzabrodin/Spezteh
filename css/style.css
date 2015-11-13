@@ -212,3 +212,105 @@ header li {
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
+
+.technic {
+	background-color: #f3f3f3;
+	padding: 20px 0 55px;
+}
+
+.technic-menu {
+	display: inline-block;
+	float: left;
+}
+
+.technic-menu ul {
+	padding: 0;
+}
+
+.technic-menu a {
+	list-style-type: none;
+	color: #202e3b;
+	font-size: 16px;
+	margin-bottom: 18px;
+	display: inline-block;
+}
+
+.deals {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.deals-table li:first-child {
+	margin: 126px;
+}
+
+.about {
+	background-color: #202e3b;
+	padding: 30px 0;
+}
+
+.about .subtitle {
+	color: white;
+}
+
+/*!Жирность!!!*/
+.about-number-normal {
+	text-decoration: none;
+}
+
+.about-number {
+	float: left;
+	display: inline-block;
+}
+
+.about ul {
+	padding: 0;
+}
+
+.about li {
+	list-style-type: none;
+}
+/*Отсупы!!!*/
+.about-digit {
+	color: #f1b132;
+	font-size: 38px;
+	font-weight: bold;
+	margin-right: 20px;
+	padding-bottom: 11px;
+}
+
+.about li {
+	color: #525b63;
+	font-size: 18px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.about-number {
+	display: inline-block;
+	float: left;
+	margin-right: 55px;
+}
+/*Проблема с расположением*/
+.about-reviews img {
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 40px;
+}
+
+.about-reviews blockquote {
+	color: white;
+	font-style: italic;
+}
+
+.about-reviews cite {
+	margin-top: 10px;
+	color: #f1b132;
+	font-weight: bold;
+	font-style: normal;
+	display: inline-block;
+}
+
+.about-reviews-item {
+	
+}
