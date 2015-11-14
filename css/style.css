@@ -314,3 +314,69 @@ header li {
 .about-reviews-item {
 	
 }
+
+.map {
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+
+.page-footer {
+	background-color: #202e3b;
+}
+
+.footer-logo {
+	float: left;
+}
+
+.footer-logo-img {
+	margin-right: 16px;
+}
+
+.footer-logo img,
+.footer-logo span {
+    display: inline-block;
+    vertical-align: middle;	
+    line-height: 75px;
+}
+
+.page-footer ul {
+    margin: 0;
+}
+
+.page-footer li {
+	display: inline-block;
+
+}
+
+.footer-logo-brand {
+	color: #ffcd34;
+	font-size: 24px;
+}
+
+.footer-main-nav ul {
+	float: right;
+}
+
+.footer-main-nav li:last-child a {
+	margin-left: 22px;
+}
+
+.footer-main-nav li a {
+    padding: 15px 19px;
+    border: 2px solid transparent;
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-main-nav li a:hover {
+    border: 2px solid #636d76;
+    color: white;
+}
+
+.footer-main-nav li a:active {
+    border: 2px solid #a6abb1;
+    color: black;
+}
