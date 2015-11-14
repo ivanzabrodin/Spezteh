@@ -72,17 +72,17 @@ header li {
 
 }
 
-.btn-catalog {
+.btn-call {
     background-color: #ffe184;
     color: black !important;
 }
 
-.btn-catalog:hover {
+.btn-call:hover {
     border: 2px solid transparent !important; 
     background-color: #ffecb2;	
 }
 
-.btn-catalog:active {
+.btn-call:active {
     background-color: #f6bf16;
 }
 
