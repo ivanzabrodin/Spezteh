@@ -1,5 +1,5 @@
 body {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
 }
 
 header {
@@ -51,6 +51,7 @@ header li {
     border: 2px solid transparent;
     line-height: 75px;
     color: #866c1b;
+    font-size: 16px;
 }
 
 .main-nav li a:hover {
@@ -257,11 +258,11 @@ header li {
 
 .deals-table tr:first-child td {
 	font-weight: bold;
-	background-color: #dfdfdf;
+	background-color: #dfdfdf !important;
 	padding-right: 60px;
 }
 
-.deals-table tr:nth-child(even) td {
+.deals-table tr:nth-child(odd) td {
 	background-color: #ffffff;
 }
 
@@ -320,12 +321,14 @@ header li {
 .about-reviews img {
 	float: left;
 	margin-right: 23px;
-	margin-bottom: 40px;
+	margin-bottom: 38px;
 }
 
 .about-reviews blockquote {
 	color: white;
 	font-style: italic;
+	font-size: 17px;
+	margin-top: 0;
 }
 
 .about-reviews cite {
@@ -337,14 +340,8 @@ header li {
 }
 
 .about-reviews-item {
-	
-}
-
-.map {
-	background-image: url(../img/map.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 500px;
+	width: 65%;
+	display: inline-block;
 }
 
 .page-footer {
@@ -407,7 +404,9 @@ header li {
 }
 
 
-
+.map {
+	height: 500px;
+}
 
 .contact-map {
 	width: 620px;
