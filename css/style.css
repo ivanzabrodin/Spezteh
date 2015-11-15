@@ -238,10 +238,35 @@ header li {
 .deals {
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 68px;
 }
 
-.deals-table li:first-child {
-	margin: 126px;
+.deals-table {
+
+}
+
+.deals-table td:first-child {
+	padding-right: 120px;
+}
+
+.deals-table td {
+	padding: 9px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+.deals-table tr:first-child td {
+	font-weight: bold;
+	background-color: #dfdfdf;
+	padding-right: 60px;
+}
+
+.deals-table tr:nth-child(even) td {
+	background-color: #ffffff;
+}
+
+.deals-table td {
+
 }
 
 .about {
@@ -379,4 +404,39 @@ header li {
 .footer-main-nav li a:active {
     border: 2px solid #a6abb1;
     color: black;
+}
+
+
+
+
+.contact-map {
+	width: 620px;
+	height: 395px;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center;	
+	float: left;
+}
+
+.contact-head h1 {
+	margin: 0;
+}
+
+.contact-head {
+	padding: 42px 0 45px 0;
+	background-image: url(../img/excavator_back.png);
+	background-repeat: repeat-x space;
+	background-position: center;
+}
+
+.contact-head-title {
+	float: left;
+	color: #ffcd34;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.contact-head-caption {
+	color: white;
+	font-size: 16px;
 }
