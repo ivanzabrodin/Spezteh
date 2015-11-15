@@ -1,0 +1,442 @@
+body {
+    font-family: PT Sans, sans-serif;
+}
+
+header {
+    background-color: #ffcd34;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    color: black;	
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img,
+.logo span {
+    display: inline-block;
+    vertical-align: middle;	
+    line-height: 75px;
+}
+
+.main-nav ul {
+    margin: 0;
+}
+
+.logo-img {
+    margin-right: 3px;
+}
+
+.main-nav {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    padding: 15px 19px;
+    border: 2px solid transparent;
+    line-height: 75px;
+    color: #866c1b;
+    font-size: 16px;
+}
+
+.main-nav li a:hover {
+    border: 2px solid #bc9d36;
+    color: black;
+}
+
+.main-nav li a:active {
+    border: 2px solid #796e38;
+    color: black;
+}
+
+.main-nav li .link-active {
+    color: black;
+}
+
+.btn {
+    padding: 18px 27px;
+
+}
+
+.btn-call {
+    background-color: #ffe184;
+    color: black !important;
+}
+
+.btn-call:hover {
+    border: 2px solid transparent !important; 
+    background-color: #ffecb2;	
+}
+
+.btn-call:active {
+    background-color: #f6bf16;
+}
+
+
+
+.promo {
+    background-image: url(../img/bgpromo.jpg) !important;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding: 137px 0 117px;
+}
+
+.promo-slogan{
+    font-size: 44px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+.promo-title {
+    font-size: 20px;
+    color: #cfcecc;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.btn-promo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 75px 12px 13px;
+    border: 3px solid #ffcd34;
+    background-image: url(../img/arrow_right_icon.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    display: inline-block;
+}
+
+.btn-promo:hover {
+    border: 3px solid #ffd966;
+}
+
+.btn-promo:active {
+    border: 3px solid #ffe390;
+}
+
+.consult {
+    padding: 27px 0 40px;
+    background-color: #202e3b;
+}
+
+.consult-title {
+    margin: 0;
+    font-weight: normal;
+    color: #ffcd34;
+    margin-bottom: 30px;
+}
+
+.consult input {
+    width: 198px;
+    height: 42px;
+    color: white;
+    background-color: #202e3b;
+    border: 2px solid #ffcd34;
+    padding-left: 20px;
+    margin-right: 20px
+}
+
+.btn-consult {
+    padding: 13px 18px;
+    background-color: #ffcd34;
+    color: black;
+}
+
+.btn-consult:hover {
+    background-color: #ffd966;
+}
+
+.btn-consult:active {
+    background-color: #f6bf16;
+}
+
+.features {
+    padding: 32px 0;
+}
+
+.features-item {
+    width: 23.2%;
+    margin-right: 20px;
+    float: left;
+    padding-left: 60px;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.features-item-tool {
+    background-image: url(../img/feat1.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-work {
+    background-image: url(../img/feat2.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-fencing {
+    background-image: url(../img/feat3.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.features-item-workman {
+    background-image: url(../img/feat4.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+.technic {
+	background-color: #f3f3f3;
+	padding: 20px 0 55px;
+}
+
+.technic-menu {
+	display: inline-block;
+	float: left;
+}
+
+.technic-menu ul {
+	padding: 0;
+}
+
+.technic-menu a {
+	list-style-type: none;
+	color: #202e3b;
+	font-size: 16px;
+	margin-bottom: 18px;
+	display: inline-block;
+}
+
+.deals {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 68px;
+}
+
+.deals-table {
+
+}
+
+.deals-table td:first-child {
+	padding-right: 120px;
+}
+
+.deals-table td {
+	padding: 9px;
+	font-size: 16px;
+	padding: 8px;
+}
+
+.deals-table tr:first-child td {
+	font-weight: bold;
+	background-color: #dfdfdf !important;
+	padding-right: 60px;
+}
+
+.deals-table tr:nth-child(odd) td {
+	background-color: #ffffff;
+}
+
+.deals-table td {
+
+}
+
+.about {
+	background-color: #202e3b;
+	padding: 30px 0;
+}
+
+.about .subtitle {
+	color: white;
+}
+
+/*!Жирность!!!*/
+.about-number-normal {
+	text-decoration: none;
+}
+
+.about-number {
+	float: left;
+	display: inline-block;
+}
+
+.about ul {
+	padding: 0;
+}
+
+.about li {
+	list-style-type: none;
+	margin-bottom: 16px;
+}
+
+/*Отсупы!!!*/
+.about-digit {
+	color: #f1b132;
+	font-size: 38px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.about li {
+	color: #525b63;
+	font-size: 18px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.about-number {
+	display: inline-block;
+	float: left;
+	margin-right: 55px;
+}
+
+.about-reviews img {
+	float: left;
+	margin-right: 23px;
+	margin-bottom: 38px;
+}
+
+.about-reviews blockquote {
+	color: white;
+	font-style: italic;
+	font-size: 17px;
+	margin-top: 0;
+}
+
+.about-reviews cite {
+	margin-top: 10px;
+	color: #f1b132;
+	font-weight: bold;
+	font-style: normal;
+	display: inline-block;
+}
+
+.about-reviews-item {
+	width: 65%;
+	display: inline-block;
+}
+
+.page-footer {
+	background-color: #202e3b;
+}
+
+.footer-logo {
+	float: left;
+}
+
+.footer-logo-img {
+	margin-right: 16px;
+}
+
+.footer-logo img,
+.footer-logo span {
+    display: inline-block;
+    vertical-align: middle;	
+    line-height: 75px;
+}
+
+.page-footer ul {
+    margin: 0;
+}
+
+.page-footer li {
+	display: inline-block;
+
+}
+
+.footer-logo-brand {
+	color: #ffcd34;
+	font-size: 24px;
+}
+
+.footer-main-nav ul {
+	float: right;
+}
+
+.footer-main-nav li:last-child a {
+	margin-left: 22px;
+}
+
+.footer-main-nav li a {
+    padding: 15px 19px;
+    border: 2px solid transparent;
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-main-nav li a:hover {
+    border: 2px solid #636d76;
+    color: white;
+}
+
+.footer-main-nav li a:active {
+    border: 2px solid #a6abb1;
+    color: black;
+}
+
+
+.map {
+	height: 500px;
+}
+
+.contact-map {
+	width: 620px;
+	height: 395px;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	background-position: center;	
+	float: left;
+}
+
+.contact-head h1 {
+	margin: 0;
+}
+
+.contact-head {
+	padding: 42px 0 45px 0;
+	background-image: url(../img/excavator_back.png);
+	background-repeat: repeat-x space;
+	background-position: center;
+}
+
+.contact-head-title {
+	float: left;
+	color: #ffcd34;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.contact-head-caption {
+	color: white;
+	font-size: 16px;
+}
