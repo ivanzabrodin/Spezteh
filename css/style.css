@@ -17,7 +17,7 @@ header:after {
     height: 14px;
     width: 100%;
     background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
-    background-size: 35px 14px;
+    background-size: 25px 14px;
 }
 
 .container {
@@ -112,18 +112,6 @@ header li {
     position: relative;
 }
 
-.promo:before {
-	content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 14px;
-    width: 100%;
-    background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
-    background-size: 35px 14px;
-}
-
 .promo-slogan{
     font-size: 44px;
     color: white;
@@ -164,6 +152,20 @@ header li {
 .consult {
     padding: 27px 0 40px;
     background-color: #202e3b;
+    position: relative;
+}
+
+.consult:before {
+	content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    height: 14px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+    background-size: 25px 14px;
 }
 
 .consult-title {
@@ -255,7 +257,7 @@ header li {
     height: 14px;
     width: 100%;
     background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
-    background-size: 35px 14px;
+    background-size: 25px 14px;
 }
 
 .technic-menu {
@@ -324,7 +326,7 @@ header li {
     height: 14px;
     width: 100%;
     background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
-    background-size: 35px 14px;
+    background-size: 25px 14px;
 }
 
 .about:before {
@@ -500,3 +502,107 @@ header li {
 	margin: 0;
 }
 
+.portfolio {
+	background-image: url(../img/bg-caption-portfolio.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.portfolio-title {
+	font-size: 24px;
+	color: #ffcd34;
+	line-height: 102px;
+	float: left;
+	display: inline-block;
+	font-weight: normal;
+}
+
+.portfolio-nav ul {
+	float: right;
+}
+
+.portfolio-nav li {
+    display: inline-block;
+	padding-right: 40px;
+}
+
+.portfolio-nav li a {
+	line-height: 102px; //102 160 495
+	color: white;
+	font-size: 16px;
+	color: white;
+}
+
+.portfolio-nav li:last-child {
+	padding: 0;
+}
+
+.first {
+	background-image: url(../img/portfolio-1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.second {
+    background-image: url(..//img/portfolio-2.png);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.third {
+    background-image: url(../img/portfolio-3.png);
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.portfolio-item {
+	height: 495px;
+	position: relative;
+}
+
+.portfolio-item:before {
+    content: "";
+    background-color: black;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.portfolio-item-info {
+	margin-top: 102px;
+	height: 245px;
+	width: 322px;
+	display: inline-block;
+	background-color: white;
+}
+
+.portfolio-item-name {
+	color: #202e3b;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.portfolio-item-caption {
+	margin-left: 20px;
+	color: #202e3b;
+	font-size: 14px;
+}
+
+.portfolio-item-btn {
+	background-color: #ffcd34;
+	color: #1d333f;
+	padding: 15px 37px 15px 17px;
+	margin-left: 17px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	background-image: url(../img/arrow_right_icon-blue.png);
+	background-repeat: no-repeat;
+	background-position: 85% 50%;
+	margin-top: 5px;
+	display: inline-block;
+}
