@@ -412,9 +412,6 @@ header li {
 .contact-map {
 	width: 620px;
 	height: 395px;
-	background-image: url(../img/map.png);
-	background-repeat: no-repeat;
-	background-position: center;	
 	float: left;
 }
 
@@ -425,7 +422,7 @@ header li {
 .contact-head {
 	padding: 42px 0 45px 0;
 	background-image: url(../img/excavator_back.png);
-	background-repeat: repeat-x space;
+	background-repeat: repeat-x;
 	background-position: center;
 }
 
