@@ -40,7 +40,7 @@ header a {
 .logo img,
 .logo span {
     display: inline-block;
-    vertical-align: middle;	
+    vertical-align: middle;
     line-height: 75px;
 }
 
@@ -730,4 +730,161 @@ header li {
 	background-position: 85% 50%;
 	margin-top: 5px;
 	display: inline-block;
+}
+
+.price-head {
+	background-image: url(../img/bg-catalog-caption.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+
+.price-title {
+	color: #ffcd34;
+	font-weight: normal;
+	margin-top: 47px;
+	display: inline-block;
+}
+
+.price-description {
+	color: white;
+	margin: 0;
+	margin-bottom: 50px;
+	display: inline-block;
+	float: left;
+}
+
+.price-head-btn {
+	padding: 15px 21px 17px 23px;
+	display: inline-block;
+	color: #202e3b;
+	font-size: 18px;
+	background-color: #ffcd34;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-left: 268px;
+	float: right;
+	position: absolute;
+	right: 470px;
+	top: 45px;
+}
+
+.price-head-btn-subtext {
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	bottom: 60px;
+	right: 495px;
+
+}
+
+.price {
+	background-color: #f3f3f3;
+}
+
+.technic-menu .subtitle {
+	color: black;
+	font-weight: bold;
+	font-size: 26px;
+	padding-left: 40px;
+	background-image: url(../img/truck-icon-catalog.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+
+.price .link-active {
+	padding-left: 18px;
+	background-image: url(../img/catalog-link-active.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	font-weight: bold;
+	color: black;
+}
+
+.technic-menu {
+	display: inline-block;
+	float: left;
+	margin-right: 80px;
+}
+
+.price li a {
+	margin: 0;
+}
+
+.price li {
+	margin-bottom: 30px;
+}
+
+.technic-menu-btn {
+	padding: 12px 23px 11px 41px;
+	background-image: url(../img/download_icon.png);
+	background-repeat: no-repeat;
+	background-position: 5% 50%;
+	background-color: #354b60;
+	color: white !important;
+	text-decoration: none;
+}
+
+.price-item {
+    margin-top: 28px;
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    margin-left: 20px;
+    padding-bottom: 33px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.price-item-title {
+	font-size: 21px;
+	font-weight: bold;
+	width: 300px;
+}
+
+.price-item-price {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    display: inline-block;
+}
+
+.price-item-price-m {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sale-item-photo {
+}
+
+.price-item-btn1 {
+	padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #f3c331;
+}
+
+.price-item-btn2 {
+	padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #354b60;
+}
+
+.price-item-buttons {
+	font-size: 0;
+    text-align: center;
+    display: table-row;
+    margin: 50px;
 }
