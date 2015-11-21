@@ -2,6 +2,7 @@ body {
     font-family: PT Sans, sans-serif;
 }
 
+/*Header*/
 header {
     background-color: #ffcd34;
     position: relative;
@@ -26,7 +27,7 @@ header:after {
     overflow: hidden;
 }
 
-.logo {
+.page-header__logo {
     float: left;
     font-size: 24px;
     color: black;	
@@ -37,14 +38,14 @@ header a {
     color: black;
 }
 
-.logo img,
-.logo span {
+.page-header__logo__img,
+.page-header__logo__brand {
     display: inline-block;
     vertical-align: middle;
     line-height: 75px;
 }
 
-.main-nav ul {
+.page-header__nav ul {
     margin: 0;
 }
 
@@ -52,15 +53,15 @@ header a {
     margin-right: 3px;
 }
 
-.main-nav {
+.page-header__nav {
     float: right;
 }
 
-header li {
+.page-header__nav li {
     display: inline-block;
 }
 
-.main-nav li a {
+.page-header__nav li a {
     padding: 15px 19px;
     border: 2px solid transparent;
     line-height: 75px;
@@ -68,40 +69,38 @@ header li {
     font-size: 16px;
 }
 
-.main-nav li a:hover {
+.page-header__nav li a:hover {
     border: 2px solid #bc9d36;
     color: black;
 }
 
-.main-nav li a:active {
+.page-header__nav li a:active {
     border: 2px solid #796e38;
     color: black;
 }
 
-.main-nav li .link-active {
-    color: black;
-}
-
-.btn {
-    padding: 18px 27px;
-}
-
-.btn-call {
-    background-color: #ffe184;
+.page-header--link-active {
     color: black !important;
 }
 
-.btn-call:hover {
+.page-header__nav__button {
+    padding: 18px 27px;
+    background-color: #ffe184;
+    color: black;
+}
+
+.page-header__nav__button:hover {
     border: 2px solid transparent !important; 
     background-color: #ffecb2;	
 }
 
-.btn-call:active {
+.page-header__nav__button:active {
     background-color: #f6bf16;
 }
+/*Header*/
 
 
-
+/*Promo*/
 .promo {
     background-image: url(../img/bgpromo.jpg) !important;
     background-repeat: no-repeat;
@@ -112,7 +111,7 @@ header li {
     position: relative;
 }
 
-.promo-slogan{
+.promo__slogan{
     font-size: 44px;
     color: white;
     text-transform: uppercase;
@@ -120,7 +119,7 @@ header li {
     margin: 0;
 }
 
-.promo-title {
+.promo__title {
     font-size: 20px;
     color: #cfcecc;
     font-weight: normal;
@@ -129,7 +128,7 @@ header li {
     margin-bottom: 32px;
 }
 
-.btn-promo {
+.promo__button {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -141,14 +140,17 @@ header li {
     display: inline-block;
 }
 
-.btn-promo:hover {
+.promo__btn:hover {
     border: 3px solid #ffd966;
 }
 
-.btn-promo:active {
+.promo__btn:active {
     border: 3px solid #ffe390;
 }
+/*Promo*/
 
+
+/*Consult*/
 .consult {
     padding: 40px 0 40px;
     background-color: #202e3b;
@@ -168,7 +170,7 @@ header li {
     background-size: 25px 14px;
 }
 
-.consult-title {
+.consult__title {
     margin: 0;
     font-weight: normal;
     color: #ffcd34;
@@ -185,25 +187,29 @@ header li {
     margin-right: 20px
 }
 
-.btn-consult {
-    padding: 13px 18px;
+.consult__button {
+    padding: 14px 18px;
     background-color: #ffcd34;
     color: black;
+    border: none;
 }
 
-.btn-consult:hover {
+.consult__button:hover {
     background-color: #ffd966;
 }
 
-.btn-consult:active {
+.consult__button:active {
     background-color: #f6bf16;
 }
+/*Consult*/
 
+
+/*Features*/
 .features {
     padding: 32px 0;
 }
 
-.features-item {
+.features__item {
     width: 23.2%;
     margin-right: 20px;
     float: left;
@@ -214,34 +220,37 @@ header li {
     box-sizing: border-box;
 }
 
-.features-item:last-child {
+.features__item:last-child {
     margin-right: 0;
 }
 
-.features-item-tool {
+.features--tool {
     background-image: url(../img/feat1.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
 
-.features-item-work {
+.features--work {
     background-image: url(../img/feat2.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
 
-.features-item-fencing {
+.features--fencing {
     background-image: url(../img/feat3.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
 
-.features-item-workman {
+.features--workman {
     background-image: url(../img/feat4.png);
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
+/*Features*/
 
+
+/*Price*/
 .technic {
 	background-color: #f3f3f3;
 	padding: 20px 0 55px;
@@ -260,16 +269,16 @@ header li {
     background-size: 25px 14px;
 }
 
-.technic-menu {
+.technic__menu {
 	display: inline-block;
 	float: left;
 }
 
-.technic-menu ul {
+.technic__menu ul {
 	padding: 0;
 }
 
-.technic-menu a {
+.technic__menu a {
 	list-style-type: none;
 	color: #202e3b;
 	font-size: 16px;
@@ -277,40 +286,39 @@ header li {
 	display: inline-block;
 }
 
-.deals {
+.technic__deals {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 68px;
 }
 
-.deals-table {
+.technic__deals__table {
 
 }
 
-.deals-table td:first-child {
+.technic__deals__table td:first-child {
 	padding-right: 120px;
 }
 
-.deals-table td {
+.technic__deals__table td {
 	padding: 9px;
 	font-size: 16px;
 	padding: 8px;
 }
 
-.deals-table tr:first-child td {
+.technic__deals__table tr:first-child td {
 	font-weight: bold;
 	background-color: #dfdfdf !important;
 	padding-right: 60px;
 }
 
-.deals-table tr:nth-child(odd) td {
+.technic__deals__table tr:nth-child(odd) td {
 	background-color: #ffffff;
 }
+/*Price*/
 
-.deals-table td {
 
-}
-
+/*Reviews*/
 .about {
 	background-color: #202e3b;
 	padding: 30px 0;
@@ -333,16 +341,11 @@ header li {
 
 }
 
-.about .subtitle {
+.about__number__subtitle {
 	color: white;
 }
 
-/*!Жирность!!!*/
-.about-number-normal {
-	text-decoration: none;
-}
-
-.about-number {
+.about__number {
 	float: left;
 	display: inline-block;
 }
@@ -354,8 +357,8 @@ header li {
 .about li {
 	list-style-type: none;
 }
-/*Отсупы!!!*/
-.about-digit {
+
+.about__number__digit {
 	color: #f1b132;
 	font-size: 38px;
 	font-weight: bold;
@@ -370,26 +373,30 @@ header li {
 	font-weight: bold;
 }
 
-.about-number {
+.about__number {
 	display: inline-block;
 	float: left;
 	margin-right: 55px;
 }
 
-.about-reviews img {
+.about__reviews img {
 	float: left;
 	margin-right: 23px;
 	margin-bottom: 38px;
 }
 
-.about-reviews blockquote {
+.about__reviews__subtitle {
+	color: white;
+}
+
+.about__reviews blockquote {
 	color: white;
 	font-style: italic;
 	font-size: 17px;
 	margin-top: 0;
 }
 
-.about-reviews cite {
+.about__reviews cite {
 	margin-top: 10px;
 	color: #f1b132;
 	font-weight: bold;
@@ -397,25 +404,35 @@ header li {
 	display: inline-block;
 }
 
-.about-reviews-item {
+.about__reviews__item {
 	width: 65%;
 	display: inline-block;
 }
+/*Reviews*/
 
+
+/*Map*/
+.map {
+	height: 500px;
+}
+/*Map*/
+
+
+/*Footer*/
 .page-footer {
 	background-color: #202e3b;
 }
 
-.footer-logo {
+.page-footer__logo {
 	float: left;
 }
 
-.footer-logo-img {
+.page-footer__logo__img {
 	margin-right: 16px;
 }
 
-.footer-logo img,
-.footer-logo span {
+.page-footer__logo__img,
+.page-footer__logo__brand {
     display: inline-block;
     vertical-align: middle;	
     line-height: 75px;
@@ -430,20 +447,20 @@ header li {
 
 }
 
-.footer-logo-brand {
+.page-footer__logo__brand {
 	color: #ffcd34;
 	font-size: 24px;
 }
 
-.footer-main-nav ul {
+.page-footer__nav ul {
 	float: right;
 }
 
-.footer-main-nav li:last-child a {
+.page-footer__nav li:last-child a {
 	margin-left: 22px;
 }
 
-.footer-main-nav li a {
+.page-footer__nav li a {
     padding: 15px 19px;
     border: 2px solid transparent;
     line-height: 75px;
@@ -451,39 +468,37 @@ header li {
     text-decoration: none;
 }
 
-.footer-main-nav li a:hover {
+.page-footer__nav li a:hover {
     border: 2px solid #636d76;
     color: white;
 }
 
-.footer-main-nav li a:active {
+.page-footer__nav li a:active {
     border: 2px solid #a6abb1;
     color: black;
 }
+/*Footer*/
 
 
-.map {
-	height: 500px;
-}
-
-.contact-map {
+/*Contact*/
+.contact__map {
 	width: 620px;
 	height: 395px;
 	float: left;
 }
 
-.contact-head h1 {
+.contact__head h1 {
 	margin: 0;
 }
 
-.contact-head {
+.contact__head {
 	background-image: url(../img/excavator_back.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
-.contact-head-title {
+.contact__head__title {
 	float: left;
 	color: #ffcd34;
 	font-size: 26px;
@@ -492,7 +507,7 @@ header li {
     line-height: 100px;
 }
 
-.contact-head-caption {
+.contact__head__caption {
 	color: white;
 	font-size: 16px;
 	display: inline-block;
@@ -508,7 +523,7 @@ header li {
 	background-color: #f3f3f3;
 }
 
-.contact-head-btn {
+.contact__head__btn {
 	display: inline-block;
 	float: right;
 	color: #202e3b;
@@ -521,13 +536,13 @@ header li {
 	margin-top: 29px;
 }
 
-.feedback {
+.contact__feedback {
 	margin-left: 20px;
 	display: inline-block;
 	width: 300px;
 }
 
-.contact-number {
+.contact__number {
 	display: inline-block;
 	padding-left: 40px;
 	background-image: url(../img/grey-tel.png);
@@ -539,7 +554,7 @@ header li {
 	margin-bottom: 10px;
 }
 
-.contact-mail {
+.contact__mail {
 	display: inline-block;
 	padding-left: 40px;
 	background-image: url(../img/grey-mail.png);
@@ -551,13 +566,13 @@ header li {
 	margin-bottom: 18px;
 }
 
-.feedback-title {
+.contact__feedback__title {
 	display: inline-block;
 	font-size: 16px;
 	margin-bottom: 15px;
 }
 
-.feedback-form input {
+.contact__feedback__form input {
 	height: 34px;
 	width: 300px;
 	padding-left: 12px;
@@ -565,7 +580,7 @@ header li {
 	border: 1px solid #d5d5d5;
 }
 
-.feedback textarea {
+.contact__feedback textarea {
 	height: 85px;
 	width: 300px;
 	padding-left: 12px;
@@ -576,7 +591,7 @@ header li {
 
 }
 
-.feedback-btn {
+.contact__feedback__btn {
 	display: inline-block;
 	width: 316px;
 	line-height: 43px;
@@ -587,12 +602,12 @@ header li {
 	font-size: 18px;
 }
 
-.reviews-title {
+.reviews__title {
 	color: #202e3b;
 	font-size: 26px;
 }
 
-.reviews-item {
+.reviews__item {
 	width: 23%;
 	display: inline-block;
 	float: left;
@@ -602,23 +617,23 @@ header li {
 	box-sizing: border-box;
 }
 
-.reviews-item-img {
+.reviews__item__img {
 	padding-left: 46px;
 	margin-bottom: 30px;
 }
 
-.reviews-item:last-child {
+.reviews__item:last-child {
 	margin-right: 0;
 }
 
-.reviews-item blockquote {
+.reviews__item blockquote {
 	margin: 0;
 	text-align: center;
 	font-size: 14px;
 	color: #202e3b;
 }
 
-.reviews-item cite {
+.reviews__item cite {
 	text-align: center;
 	width: 213px;
 	display: inline-block;
@@ -626,7 +641,10 @@ header li {
 	margin-top: 15px;
 	margin-bottom: 70px;
 }
+/*Contact*/
 
+
+/*Portfolio*/
 .portfolio {
 	background-image: url(../img/bg-caption-portfolio.png);
 	background-repeat: no-repeat;
@@ -634,7 +652,7 @@ header li {
 	background-size: cover;
 }
 
-.portfolio-title {
+.portfolio__title {
 	font-size: 24px;
 	color: #ffcd34;
 	line-height: 102px;
@@ -643,23 +661,23 @@ header li {
 	font-weight: normal;
 }
 
-.portfolio-nav ul {
+.portfolio__nav ul {
 	float: right;
 }
 
-.portfolio-nav li {
+.portfolio__nav li {
     display: inline-block;
 	padding-right: 40px;
 }
 
-.portfolio-nav li a {
+.portfolio__nav li a {
 	line-height: 102px; //102 160 495
 	color: white;
 	font-size: 16px;
 	color: white;
 }
 
-.portfolio-nav li:last-child {
+.portfolio__nav li:last-child {
 	padding: 0;
 }
 
@@ -684,12 +702,12 @@ header li {
 	background-size: cover;
 }
 
-.portfolio-item {
+.portfolio__item {
 	height: 495px;
 	position: relative;
 }
 
-.portfolio-item:before {
+.portfolio__item:before {
     content: "";
     background-color: black;
     height: 10px;
@@ -697,7 +715,7 @@ header li {
     position: absolute;
 }
 
-.portfolio-item-info {
+.portfolio__item__info {
 	margin-top: 102px;
 	height: 245px;
 	width: 322px;
@@ -705,19 +723,19 @@ header li {
 	background-color: white;
 }
 
-.portfolio-item-name {
+.portfolio__item__name {
 	color: #202e3b;
 	font-size: 20px;
 	margin-left: 20px;
 }
 
-.portfolio-item-caption {
+.portfolio__item__caption {
 	margin-left: 20px;
 	color: #202e3b;
 	font-size: 14px;
 }
 
-.portfolio-item-btn {
+.portfolio__item__btn {
 	background-color: #ffcd34;
 	color: #1d333f;
 	padding: 15px 37px 15px 17px;
@@ -731,7 +749,9 @@ header li {
 	margin-top: 5px;
 	display: inline-block;
 }
+/*Portfolio*/
 
+/*Catalog*/
 .price-head {
 	background-image: url(../img/bg-catalog-caption.png);
 	background-repeat: no-repeat;
@@ -740,14 +760,14 @@ header li {
 	position: relative;
 }
 
-.price-title {
+.price__title {
 	color: #ffcd34;
 	font-weight: normal;
 	margin-top: 47px;
 	display: inline-block;
 }
 
-.price-description {
+.price__description {
 	color: white;
 	margin: 0;
 	margin-bottom: 50px;
@@ -755,7 +775,7 @@ header li {
 	float: left;
 }
 
-.price-head-btn {
+.price__head__button {
 	padding: 15px 21px 17px 23px;
 	display: inline-block;
 	color: #202e3b;
@@ -771,7 +791,7 @@ header li {
 	top: 45px;
 }
 
-.price-head-btn-subtext {
+.price__head__button__subtext {
 	font-size: 16px;
 	color: white;
 	position: absolute;
@@ -782,9 +802,10 @@ header li {
 
 .price {
 	background-color: #f3f3f3;
+	position: relative;
 }
 
-.technic-menu .subtitle {
+.price__menu__subtitle {
 	color: black;
 	font-weight: bold;
 	font-size: 26px;
@@ -794,7 +815,7 @@ header li {
 	background-position: 0 50%;
 }
 
-.price .link-active {
+.price__menu__link--active {
 	padding-left: 18px;
 	background-image: url(../img/catalog-link-active.png);
 	background-repeat: no-repeat;
@@ -817,7 +838,7 @@ header li {
 	margin-bottom: 30px;
 }
 
-.technic-menu-btn {
+.price__menu__button {
 	padding: 12px 23px 11px 41px;
 	background-image: url(../img/download_icon.png);
 	background-repeat: no-repeat;
@@ -827,7 +848,7 @@ header li {
 	text-decoration: none;
 }
 
-.price-item {
+.price__item {
     margin-top: 28px;
     display: inline-block;
     background-color: white;
@@ -838,31 +859,27 @@ header li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
 }
 
-.price-item-title {
+.price__item__title {
 	font-size: 21px;
 	font-weight: bold;
 	width: 300px;
 }
 
-.price-item-price {
+.price__item__price {
     font-size: 27px;
     font-weight: bold;
     margin: 15px 0 10px;
     display: inline-block;
 }
 
-.price-item-price-m {
+.price__item__price__m {
     font-weight: bold;
     font-size: 18px;
 }
 
-.sale-item-photo {
-}
-
-.price-item-btn1 {
+.price__item__button1 {
 	padding: 10px 20px;
     color: #fff;
     font-size: 16px;
@@ -872,7 +889,7 @@ header li {
     background-color: #f3c331;
 }
 
-.price-item-btn2 {
+.price__item__button2 {
 	padding: 10px 20px;
     color: #fff;
     font-size: 16px;
@@ -882,9 +899,100 @@ header li {
     background-color: #354b60;
 }
 
-.price-item-buttons {
+.price__item__buttons {
 	font-size: 0;
     text-align: center;
     display: table-row;
     margin: 50px;
 }
+
+.price .nav-price ul li {
+	display: inline-block;	
+}
+
+.nav-price li a {
+	padding: 0 6px;
+	color: #354b60;
+	font-size: 16px;
+	text-decoration: none;
+	border: 2px solid transparent;
+}
+
+.nav-price li a:hover {
+	border: 2px solid #9aa5af;
+	border-radius: 4px;
+}
+
+.nav-price li a:active {
+	border: 2px solid #354b60;
+	border-radius: 4px;
+}
+
+.nav-price-link-active {
+	background-color: #354b60;
+	font-size: 16px;
+	padding: 0 6px;
+	color: white;
+	border-radius: 4px;
+}
+
+.nav-price {
+	text-align: center;
+	margin-left: 266px;
+	margin-top: 30px;
+}
+
+.sale {
+	background-image: url(../img/bg-catalog-spec.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.sale-title {
+	color: white;
+}
+
+.sale-item {
+	background-color: white;
+	display: inline-block;
+	width: 31.6%;
+	margin-right: 20px;
+	margin-bottom: 50px;
+    padding-bottom: 33px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sale-item:last-child {
+	margin-right: 0;
+}
+
+.sale-item:after {
+	content: "";
+	position: absolute;
+  	transform: rotate(45deg);
+	background-image: url(../img/sale.png);
+	background-repeat: no-repeat;
+}
+
+.price__menu {
+	display: inline-block;
+	float: left;
+	margin-right: 80px;
+}
+
+.price__menu ul {
+	padding: 0;
+}
+
+.price__menu li {
+	list-style-type: none;
+}
+
+.price__menu li a {
+	color: #202e3b;
+}
+/*Catalog*/
