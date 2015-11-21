@@ -856,6 +856,8 @@ header a {
     margin-left: 20px;
     padding-bottom: 33px;
     padding-left: 30px;
+    overflow: hidden;
+    position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -954,6 +956,8 @@ header a {
 }
 
 .sale-item {
+	position: relative;
+	overflow: hidden;
 	background-color: white;
 	display: inline-block;
 	width: 31.6%;
@@ -996,3 +1000,33 @@ header a {
 	color: #202e3b;
 }
 /*Catalog*/
+
+/*Tags*/
+.tag-new {
+	position: absolute;
+  	transform: rotate(45deg);
+  	right: -32px;
+  	top: 7px;
+  	display: block;
+  	text-align: center;
+  	background-color: #00c22e;
+  	color: #fff;
+  	width: 100px;
+  	padding: 8px;
+  	font-size: 19px;
+}
+
+.tag-sale {
+	position: absolute;
+  	transform: rotate(45deg);
+  	right: -32px;
+  	top: 7px;
+  	display: block;
+  	text-align: center;
+  	background-color: #d12222;
+  	color: #fff;
+  	width: 100px;
+  	padding: 8px;
+  	font-size: 19px;
+}
+/*Tags*/
