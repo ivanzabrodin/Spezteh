@@ -559,6 +559,11 @@ header a {
     margin-bottom: 18px;
 }
 
+.contact__mail a {
+    color: black;
+    text-decoration: none;
+}
+
 .contact__feedback__title {
     display: inline-block;
     font-size: 16px;
