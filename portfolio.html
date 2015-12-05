@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Спецтех 24 | Портфолио</title>
@@ -8,117 +8,131 @@
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header class="page-header">
+<!-- Header -->
+  <header class="page-header">
     <div class="container">
-      <a href="index.html" class="logo">
-        <img class="logo-img" src="img/truck-logo.png" height="36" width="47" alt="Лого" />
-        <span class="logo-brand"><b>Спецтех</b>24</span>
+      <a href="index.html" class="page-header__logo">
+        <img class="page-header__logo__img" src="img/truck-logo.png" height="36" width="47" alt="Лого" />
+        <span class="page-header__logo__brand"><b>Спецтех</b>24</span>
       </a>
-      <nav class="main-nav">
+      <nav class="page-header__nav">
         <ul>
-          <li><a href="index.html">О компании</a></li>
+          <li><a href="#">О компании</a></li>
           <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="#" class="link-active">Портфолио</a></li>
+          <li><a href="portfolio.html" class="page-header--link-active">Портфолио</a></li>
           <li><a href="contacts.html">Контакты</a></li>
-          <li><a href="#" class="btn btn-call">Заказать звонок</a></li>
+          <li><a href="#" class="page-header__nav__button">Заказать звонок</a></li>
         </ul>
       </nav>
     </div>
-</header>
+  </header>
+<!-- Header -->
 
 
 <main>
+<!-- Portfolio head -->
     <div class="portfolio">
       <div class="container">
-        <h1 class="portfolio-title">Портфолио</h1>
-        <nav class="portfolio-nav">
+        <h1 class="portfolio__title">Портфолио</h1>
+        <nav class="portfolio__nav">
           <ul>
-            <li>Все работы</li>
-            <li>Строительство</li>
-            <li>Демонтаж</li>
-            <li>Земляные работы</li>
-            <li>Перевозка</li>
+            <li><a href="#">Все работы</a></li>
+            <li><a href="#">Строительство</a></li>
+            <li><a href="#">Демонтаж</a></li>
+            <li><a href="#">Земляные работы</a></li>
+            <li><a href="#">Перевозка</a></li>
           </ul>
         </nav>
       </div>
     </div>
-  	<article class="portfolio-item first">
+<!-- Portfolio head -->
+
+<!-- Portfolio items -->
+  	<article class="portfolio__item first">
   		<div class="container">
-  			<div class="potfolio-item-info">
-              <h3 class="portfolio-item-name">Строительство жилого дома в деревушке на севере холма</h3>
-              	<p class="portfolio-item-caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
+  			<div class="portfolio__item__info">
+              <h3 class="portfolio__item__name">Строительство жилого дома в деревушке на севере холма</h3>
+              	<p class="portfolio__item__caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
               		оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-              	<a href="#" class="portfolio-item-btn">Подробнее</a>
+              	<a href="#" class="portfolio__item__btn">Подробнее</a>
   			</div>
   		</div>
   	</article>
-  	<article class="portfolio-item second">
+  	<article class="portfolio__item second">
   		<div class="container">
-  			<div class="potfolio-item-info">
-  				<h3 class="portfolio-item-name">Строительство жилого дома в деревушке на севере холма</h3>
-              	<p class="portfolio-item-caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
+  			<div class="portfolio__item__info">
+  				<h3 class="portfolio__item__name">Строительство жилого дома в деревушке на севере холма</h3>
+              	<p class="portfolio__item__caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
               		оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-              	<a href="#" class="portfolio-item-btn">Подробнее</a>
+              	<a href="#" class="portfolio__item__btn">Подробнее</a>
   			</div>
   		</div>
   	</article>
-  	<article class="portfolio-item third">
+  	<article class="portfolio__item third">
   		<div class="container">
-  			<div class="potfolio-item-info">
-  				<h3 class="portfolio-item-name">Строительство жилого дома в деревушке на севере холма</h3>
-              	<p class="portfolio-item-caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
+  			<div class="portfolio__item__info">
+  				<h3 class="portfolio__item__name">Строительство жилого дома в деревушке на севере холма</h3>
+              	<p class="portfolio__item__caption">Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
               		оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-              	<a href="#" class="portfolio-item-btn">Подробнее</a>
+              	<a href="#" class="portfolio__item__btn">Подробнее</a>
   			</div>
   		</div>
   	</article>
+<!-- Portfolio items -->
+
+<!-- Consult -->
     <section class="consult">
       <div class="container">
-        <h2 class="consult-title">Закажите бесплатную консультацию по подбору подходящей техники</h2>
-        <form action="#" class="consult-form">
+        <h2 class="consult__title">Закажите бесплатную консультацию по подбору подходящей техники</h2>
+        <form action="#" class="consult__form">
           <input type="text" placeholder="Как Вас зовут?">
           <input type="text" placeholder="Номер для связи">
           <input type="" placeholder="Выберите дату">
-          <button class="btn btn-consult">Заказать консультацию</button>
+          <button class="consult__button">Заказать консультацию</button>
         </form>
       </div>
     </section>
+<!-- Consult -->
+
+<!-- Features -->
   	<div class="features">
 		<div class="container">
-			<div class="features-item features-item-tool">
+			<div class="features__item features--tool">
 				<p>Техника проходит обязательное обслуживание перед каждым выездом</p>
 			</div>
-			<div class="features-item features-item-work">
+			<div class="features__item features--work">
 				<p>Все машины оборудованы спец. сигналами, для предупреждения аварий</p>
 			</div>
-			<div class="features-item features-item-fencing">
+			<div class="features__item features--fencing">
 				<p>Привезем модные строительные ограждения к каждому заказу от 20 000</p>
 			</div>
-			<div class="features-item features-item-workman">
+			<div class="features__item features--workman">
 				<p>С техникой приедут квалифицированные операторы и водители</p>
 			</div>
 		</div>
 	</div>
+<!-- Features -->
 </main>
-
-<footer class="page-footer">
-	<div class="container">
-		<a href="index.html" class="footer-logo">
-			<img src="img/truck_icon.png" height="36" width="47" alt="Лого" class="footer-logo-img">
-			<span class="footer-logo-brand">
-				<b>Спецтех</b>24
-			</span>
-		</a>
-		<nav class="footer-main-nav">
-			<ul>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#" class="footer-btn-order">Заказать звонок</a></li>
-			</ul>
-		</nav>
-	</div>
-</footer>
+<!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <a href="index.html" class="page-footer__logo">
+        <img src="img/truck_icon.png" height="36" width="47" alt="Лого" class="page-footer__logo__img">
+        <span class="page-footer__logo__brand">
+          <b>Спецтех</b>24
+        </span>
+      </a>
+      <nav class="page-footer__nav">
+        <ul>
+          <li><a href="index.html">О компании</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="contacts.html" class="footer-btn-order">Заказать звонок</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<!-- Footer -->
 </body>
 </html>

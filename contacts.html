@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Спецтех 24 | Контакты</title>
@@ -8,101 +8,111 @@
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<header class="page-header">
-		<div class="container">
-			<a href="index.html" class="logo">
-				<img class="logo-img" src="img/truck-logo.png" height="36" width="47" alt="Лого" />
-      			<span class="logo-brand"><b>Спецтех</b>24</span>
-			</a>
-			<nav class="main-nav">
-				<ul>
-					<li><a href="index.html">О компании</a></li>
-					<li><a href="catalog.html">Каталог</a></li>
-					<li><a href="portfolio.html">Портфолио</a></li>
-					<li><a href="#" class="link-active">Контакты</a></li>
-					<li><a href="#" class="btn btn-call">Заказать звонок</a></li>
-				</ul>
-			</nav>
-		</div>
-</header>
+<!-- Header -->
+  <header class="page-header">
+    <div class="container">
+      <a href="index.html" class="page-header__logo">
+        <img class="page-header__logo__img" src="img/truck-logo.png" height="36" width="47" alt="Лого" />
+        <span class="page-header__logo__brand"><b>Спецтех</b>24</span>
+      </a>
+      <nav class="page-header__nav">
+        <ul>
+          <li><a href="#">О компании</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contacts.html" class="page-header--link-active">Контакты</a></li>
+          <li><a href="#" class="page-header__nav__button">Заказать звонок</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- Header -->
 
 <main>
-	<div class="contact-head">
+<!-- Contacts head -->
+	<div class="contact__head">
 		<div class="container">
-			<h1 class="contact-head-title">Контакты</h1>
-          	<span class="contact-head-caption">Свяжитесь с нами, и все будет хорошо</span>
-          	<a href="#" class="contact-head btn">Мне нужна консультация</a>
+			<h1 class="contact__head__title">Контакты</h1>
+          	<p class="contact__head__caption">Свяжитесь с нами, и все будет хорошо</p>
+          	<a href="#" class="contact__head__btn">Мне нужна консультация</a>
 		</div>
 	</div>
-  	
+<!-- Contacts head -->
+
+<!-- Contanct form -->
   	<div class="contact">
   		<div class="container">
-  			<div class="contact-map">
+  			<div class="contact__map">
        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31977.204050586228!2d30.33085731271971!3d59.9391899278385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1447800229068" width="620" height="395" frameborder="0" style="border:0" allowfullscreen></iframe>   
         </div>
-          	<section class="feedback">
-              	<span class="contact-number">+7 (812) 212 85 06</span>
-          		<span class="contactmail">rent@spezteh.ru</span>
-          		<span class="feedback-title">Заказать консультацию ппо подбору подходящей техники:</span>
-              	<form action="#" class="feedback-form">
-              		<input type="text" />
-              		<input type="number" />
-              		<input type="text" />
+          	<section class="contact__feedback">
+              <span class="contact__number">+7 (812) 212 85 06</span>
+          		<span class="contact__mail"><a href="mailto:rent@spezteh.ru">rent@spezteh.ru</a></span><br>
+          		<span class="contact__feedback__title">Заказать консультацию по подбору подходящей техники:</span>
+              	<form action="#" class="contact__feedback__form">
+              		<input type="text" placeholder="Имя"/>
+              		<input type="text" placeholder="Телефон для связи"/>
+              		<textarea placeholder="Описание задачи (можно примерное)"/></textarea>
               	</form>
-              	<a href="#" class="feedback-btn">Получить консультацию</a>
+              	<a href="#" class="contact__feedback__btn">Получить консультацию</a>
           	</section>
   		</div>
   	</div>
-  
+<!-- Contanct form -->
+
+<!-- Reviews -->
   	<section class="reviews">
   		<div class="container">
-  			<h2 class="reviews-title">Отзывы</h2>
-          	<div class="reviews-item">
-          		<img src="#" alt="Фото" class="reviews-item-img" />
+  			<h2 class="reviews__title">Отзывы</h2>
+          	<div class="reviews__item">
+          		<img src="img/otzyv1.jpg" height="120" width="120" alt="Фото" class="reviews__item__img" />
               	<blockquote>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
               		работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</blockquote>
               	<cite>Оля Молния</cite>
           	</div>
-          	<div class="reviews-item">
-          		<img src="#" alt="Фото" class="reviews-item-img" />
+          	<div class="reviews__item">
+          		<img src="img/otzyv2.jpg" height="120" width="120" alt="Фото" class="reviews__item__img" />
               	<blockquote>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
               		работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</blockquote>
               	<cite>Оля Молния</cite>
           	</div>
-          	<div class="reviews-item">
-          		<img src="#" alt="Фото" class="reviews-item-img" />
+          	<div class="reviews__item">
+          		<img src="img/otzyv3.jpg" height="120" width="120" alt="Фото" class="reviews__item__img" />
               	<blockquote>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
               		работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</blockquote>
               	<cite>Оля Молния</cite>
           	</div>
-          	<div class="reviews-item">
-          		<img src="#" alt="Фото" class="reviews-item-img" />
+          	<div class="reviews__item">
+          		<img src="img/otzyv4.jpg" height="120" width="120" alt="Фото" class="reviews__item__img" />
               	<blockquote>Спецтех24 - это надежные партнеры нашей компании, которые всегда выполняют
               		работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</blockquote>
               	<cite>Оля Молния</cite>
           	</div>
   		</div>
   	</section>
-</main>
+<!-- Reviews -->
 
-<footer class="page-footer">
-	<div class="container">
-		<a href="index.html" class="footer-logo">
-			<img src="img/truck_icon.png" height="36" width="47" alt="Лого" class="footer-logo-img">
-			<span class="footer-logo-brand">
-				<b>Спецтех</b>24
-			</span>
-		</a>
-		<nav class="footer-main-nav">
-			<ul>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#" class="footer-btn-order">Заказать звонок</a></li>
-			</ul>
-		</nav>
-	</div>
-</footer>
+</main>
+<!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <a href="index.html" class="page-footer__logo">
+        <img src="img/truck_icon.png" height="36" width="47" alt="Лого" class="page-footer__logo__img">
+        <span class="page-footer__logo__brand">
+          <b>Спецтех</b>24
+        </span>
+      </a>
+      <nav class="page-footer__nav">
+        <ul>
+          <li><a href="index.html">О компании</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="contacts.html" class="footer-btn-order">Заказать звонок</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+<!-- Footer -->
 </body>
 </html>
