@@ -78,8 +78,8 @@ header a {
     color: black;
 }
 
-.page-header--link-active {
-    color: black !important;
+.page-header__nav .page-header--link-active {
+    color: black;
 }
 
 .page-header__nav__button {
@@ -89,7 +89,7 @@ header a {
 }
 
 .page-header__nav__button:hover {
-    border: 2px solid transparent !important;
+    border: 2px solid transparent;
     background-color: #ffecb2;
 }
 
@@ -101,7 +101,7 @@ header a {
 
 /*Promo*/
 .promo {
-    background-image: url(../img/bgpromo.jpg) !important;
+    background-image: url(../img/bgpromo.jpg);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
             background-size: cover;
@@ -139,11 +139,11 @@ header a {
     display: inline-block;
 }
 
-.promo__btn:hover {
+.promo__button:hover {
     border: 3px solid #ffd966;
 }
 
-.promo__btn:active {
+.promo__button:active {
     border: 3px solid #ffe390;
 }
 /*Promo*/
@@ -291,21 +291,22 @@ header a {
     margin-left: 68px;
 }
 
-
+.technic__deals__table {
+    width: 688px;
+}
 
 .technic__deals__table td:first-child {
     padding-right: 120px;
 }
 
 .technic__deals__table td {
-    padding: 9px;
     font-size: 16px;
     padding: 8px;
 }
 
-.technic__deals__table tr:first-child td {
+.technic__deals .technic__deals__table tr:first-child td {
     font-weight: bold;
-    background-color: #dfdfdf !important;
+    background-color: #dfdfdf;
     padding-right: 60px;
 }
 
@@ -343,6 +344,7 @@ header a {
 .about__number {
     float: left;
     display: inline-block;
+    width: 280px;
 }
 
 .about ul {
@@ -397,6 +399,7 @@ header a {
     font-weight: bold;
     font-style: normal;
     display: inline-block;
+    width: 430px;
 }
 
 .about__reviews__item {
@@ -497,7 +500,9 @@ header a {
     font-size: 26px;
     font-weight: normal;
     display: inline-block;
-    line-height: 100px;
+    padding-top: 31px;
+    padding-bottom: 37px;
+    width: 110px;
 }
 
 .contact__head__caption {
@@ -505,9 +510,9 @@ header a {
     font-size: 16px;
     display: inline-block;
     margin: 0;
-    line-height: 100px;
-    padding-top: 3px;
+    padding-top: 40px;
     padding-left: 17px;
+    width: 560px;
 }
 
 .contact {
@@ -526,7 +531,7 @@ header a {
     text-decoration: none;
     padding: 15px 20px 17px 21px;
     vertical-align: middle;
-    margin-top: 29px;
+    margin-top: 29px; 
 }
 
 .contact__feedback {
@@ -700,7 +705,6 @@ header a {
 }
 
 .portfolio__item {
-    height: 495px;
     position: relative;
 }
 
@@ -714,10 +718,10 @@ header a {
 
 .portfolio__item__info {
     margin-top: 102px;
-    height: 245px;
     width: 322px;
     display: inline-block;
     background-color: white;
+    margin-bottom: 150px;
 }
 
 .portfolio__item__name {
@@ -745,7 +749,10 @@ header a {
     background-position: 85% 50%;
     margin-top: 5px;
     display: inline-block;
+    margin-bottom: 30px;
 }
+
+
 /*Portfolio*/
 
 /*Catalog*/
@@ -780,20 +787,17 @@ header a {
     background-color: #ffcd34;
     font-weight: bold;
     text-decoration: none;
-    margin-bottom: 20px;
-    margin-left: 268px;
+    margin-top: -60px;
     float: right;
-    position: absolute;
-    right: 470px;
-    top: 45px;
 }
 
 .price__head__button__subtext {
     font-size: 16px;
     color: white;
-    position: absolute;
     bottom: 60px;
-    right: 495px;
+    display: inline-block;
+    float: right;
+    margin-right: 24px;
 }
 
 .price {
@@ -840,8 +844,12 @@ header a {
     background-repeat: no-repeat;
     background-position: 5% 50%;
     background-color: #354b60;
-    color: white !important;
+    color: white;
     text-decoration: none;
+}
+
+.price__items {
+    float: right;
 }
 
 .price__item {
@@ -857,6 +865,7 @@ header a {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+    vertical-align: top;
 }
 
 .price__item__title {
@@ -875,6 +884,16 @@ header a {
 .price__item__price__m {
     font-weight: bold;
     font-size: 18px;
+}
+
+.price__item__price--old {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+    display: inline-block;
+    color: red;
+    text-decoration: line-through;
+    padding-right: 15px;
 }
 
 .price__item__button1 {
@@ -903,6 +922,12 @@ header a {
     display: table-row;
     margin: 50px;
 }
+
+.price__item__button1:hover,
+.price__item__button2:hover {
+    opacity: 0.7;
+}
+
 
 .price .nav-price ul li {
     display: inline-block;
@@ -964,10 +989,7 @@ header a {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-}
-
-.sale-item:last-child {
-    margin-right: 0;
+    vertical-align: top;
 }
 
 .sale-item:after {
